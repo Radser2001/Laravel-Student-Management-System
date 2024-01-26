@@ -9,7 +9,7 @@
 
 # Student Management System
 
-Laravel-based web application designed to help you efficiently manage student records. This application provides a user-friendly interface for tasks such as adding new students, viewing a list of students, editing student information, and deleting student records. Additionally, the system includes user registration and authentication features to ensure secure access.
+Laravel-based web application is designed to efficiently manage the student records. This application provides a user-friendly interface for tasks such as adding new students, viewing a list of students, editing student information, and deleting student records. Additionally, the system includes user registration and authentication features to ensure secure access.
 
 ## Features
 
@@ -27,10 +27,6 @@ Laravel-based web application designed to help you efficiently manage student re
 
 ## Technologies Used
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
 - **Laravel :** The PHP framework used for backend development.
 - **Vue.js :** Frontend development powered by Vue 3.
 - **Inertia.js :** A library for building modern single-page applications (SPAs) with server-side rendering.
@@ -40,38 +36,54 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 ## Getting Started
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
 ### Prerequisites
 
 - PHP 8.1
 - Composer
 - Node.js
-- NPM or Yarn
+- NPM 
 
 ### Installation
 
 #### 1. Clone the repository
 
-`git clone <https://github.com/radser2001/student-management-system.git>`
+```
+git clone https://github.com/Radser2001/Laravel-Student-Management-System.git
+```
 
-#### 2. Install PHP dependencies
+#### 2. Install dependencies
 
-`composer install`
+```
+composer install
+npm install
+```
 
-#### 3. Install Node.js dependencies
+#### 3. Set up the environment
 
-`npm install`
+- Duplicate the .env.example file and rename it to .env.
+- Generate the application key:
 
-#### 4. Copy the .env.example file to .env and configure your database
+```
+php artisan key:generate
+```
+
+#### 4. Migrate the database
+
+```
+php artisan migrate
+```
 
 #### 5. Compile front-end assets
 
-`npm run dev`
+```
+npm run dev
+```
 
 #### 6. Start the development server
 
-`php artisan serve`
+```
+php artisan serve
+```
 
 #### Visit <http://localhost:8000> in your browser
 
