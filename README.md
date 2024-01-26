@@ -9,7 +9,7 @@
 
 # Student Management System
 
-Laravel-based web application is designed to efficiently manage the student records. This application provides a user-friendly interface for tasks such as adding new students, viewing a list of students, editing student information, and deleting student records. Additionally, the system includes user registration and authentication features to ensure secure access.
+Laravel-based web application designed to efficiently manage the student records. This application provides a user-friendly interface for tasks such as adding new students, viewing a list of students, editing student information, and deleting student records. Additionally, the system includes user registration and authentication features to ensure secure access.
 
 ## Features
 
@@ -33,6 +33,46 @@ Laravel-based web application is designed to efficiently manage the student reco
 - **Tailwind CSS :** A utility-first CSS framework for building responsive and stylish interfaces.
 - **Breeze :** A minimalistic, highly customizable Laravel starter kit.
 
+<details>
+  <summary style="font-size: 18px; font-weight: bold;">Student Management Screenshots</summary>
+  
+### List of students
+
+  ![List of students](Screenshots/students.png)
+
+### Student Statistics
+
+  ![Student Statistics](Screenshots/dashboard.png)
+
+### dd New Student
+
+  ![dd New Student](Screenshots/create.png)
+
+### Update Student Details
+
+  ![Update Student Details](Screenshots/update.png)
+
+### User Profile
+
+  ![User Profile](Screenshots/profile.png)
+
+### Home Page
+
+  ![Home Page](Screenshots/home.png)
+
+### Login Page
+
+  ![Login Page](Screenshots/login.png)
+
+### Registration Page
+
+  ![Registration Page](Screenshots/register.png)
+
+### Forgot Password Page
+
+  ![Forgot Password Page](Screenshots/forgotPassword.png)
+
+</details>
 
 ## Getting Started
 
@@ -92,4 +132,3 @@ php artisan serve
 - Create a new account or sign in with existing credentials.
 - Navigate to the "Students" section to manage student records.
 - Use the provided features to add, view, edit, and delete student information.
-
