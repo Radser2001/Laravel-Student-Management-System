@@ -44,9 +44,9 @@ Laravel-based web application designed to efficiently manage the student records
 
   ![Student Statistics](Screenshots/dashboard.png)
 
-### dd New Student
+### Add New Student
 
-  ![dd New Student](Screenshots/create.png)
+  ![Add New Student](Screenshots/create.png)
 
 ### Update Student Details
 
